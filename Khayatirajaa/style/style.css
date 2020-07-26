@@ -1,0 +1,282 @@
+                       /* Rajaa Khayati de la classe 2ème année AP groupe 4 emsi Maarif  */
+
+
+body {
+  line-height: 1.7;
+  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 1rem; }
+  
+  
+
+.text-black {
+  color: #000 !important; }              /* pour colour de logo , contacte  */
+
+  
+    .site-section {
+      padding: 12333em 0; } 
+	  
+ 
+/* Navbar */
+.site-navbar {
+ 
+  z-index: 1999;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 10px 30px ;                         /* pour top de menu */
+  border-radius: 4px; }
+  
+  .site-navbar .site-navigation .site-menu {
+    margin-bottom: 0; }
+	
+   .site-navbar .site-navigation .site-menu .active > a {
+      color: #30e3ca;                                 /* pour color de acceule vert */
+     }
+	 
+  .site-navbar .site-navigation .site-menu > li {
+      display: inline-block; }                     /* Je les ai placés dans la meme ligne menu: acceul zrtic connex... */
+	  
+  .site-navbar .site-navigation .site-menu > li > a {
+        color: #000;
+        text-decoration: none !important;
+        padding: 20px 10px;
+        display: inline-block;
+        font-size: 15px; }                     /* les detail color ,padding de menu: acceul zrtic connex... */
+		
+		
+  .site-navbar .site-navigation .site-menu > li > a:hover {
+          color: #30e3ca;
+          border-radius: 30px;
+          display: inline-block; }
+		  
+	
+	.site-navbar .site-navigation .site-menu .has-children .dropdown {
+        visibility: hidden;
+        opacity: 0;
+        top: 100%;
+        position: absolute;
+        text-align: left;
+        border-top: 2px solid #30e3ca;
+        -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+        border-left: 1px solid #edf0f5;
+        border-right: 1px solid #edf0f5;
+        border-bottom: 1px solid #edf0f5;
+        padding: 0px 0;
+        margin-top: 20px;
+        margin-left: 0px;
+        background: #fff;
+        -webkit-transition: 0.2s 0s;
+        -o-transition: 0.2s 0s;
+        transition: 0.2s 0s; }   /* pour masque les categorie */
+		
+		.site-navbar .site-navigation .site-menu .has-children .dropdown a {
+          text-transform: none;
+          letter-spacing: normal;
+          -webkit-transition: 0s all;
+          -o-transition: 0s all;
+          transition: 0s all;
+          color: #343a40; }
+		  
+		  .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          min-width: 200px; }
+		  
+		   .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
+            padding: 9px 20px;
+            display: block; }
+           .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
+              background: #f4f5f9;
+              color: #25262a; }
+			  
+		 .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active > .dropdown {
+          -webkit-transition-delay: 0s;
+          -o-transition-delay: 0s;
+          transition-delay: 0s;
+          margin-top: 0px;
+          visibility: visible;
+          opacity: 1; }             /* pour onclikc article afficher les categorie */
+		  
+  
+   /* .site-mobile-menu {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  z-index: 2000;
+  padding-top: 20px;
+  background: #fff;
+  height: calc(100vh);
+  -webkit-transform: translateX(110%);
+  -ms-transform: translateX(110%);
+  transform: translateX(110%);
+  -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out; }  */
+  
+  
+  .site-blocks-cover.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.4); }          /* pour background coulor */
+	  
+	  .site-blocks-cover, .site-blocks-cover > .container > .row {
+    min-height: 600px;
+    height: calc(100vh); }          /* pour la taille de background  */
+	
+	.site-blocks-cover h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff; }        /* pour la couleur de text modern evi  */
+	
+	.site-blocks-cover p {
+    color: rgba(255, 255, 255, 0.5);          /* pour la couleur de text acheter votre fourniture sans limite  */
+    font-size: 1.2rem;
+    line-height: 1.5; }
+	
+	.form-search-wrap {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 7px;
+  padding: 20px; }                              /* pour la couleur de cadre recherche gray */
+  
+  .popular-category {
+  background: #fff;
+  display: block;
+  text-align: center;
+  padding: 30px 10px;
+  border-radius: 7px;
+  top: 0;
+  position: relative;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out; }           /* pour la couleur de barre artivle vert fix */
+  
+  .popular- .caption {
+    color: #666666;
+    -webkit-transition: .1s all ease;
+    -o-transition: .1s all ease;
+    transition: .1s all ease;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-weight: normal; }          /* pour masqui la couleur de barre artivle vert fix */
+	
+	.popular-category:hover {
+    background: #30e3ca;
+    -webkit-box-shadow: 0 5px 30px -5px rgba(48, 227, 202, 0.5);
+    box-shadow: 0 5px 30px -5px rgba(48, 227, 202, 0.5);
+    top: -10px; }                     /* pour affiche la couleur de barre artivle vert in foit clique  */
+	
+	.accordion-item[aria-expanded="true"] {
+  color: #30e3ca; }
+  
+  /* .listing {
+  -webkit-box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px -2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  border-radius: 7px;
+  position: relative;
+  background: #fff; }  
+  
+  .listing {
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px; } }
+  .listing .img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: 10px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 230px;
+    flex: 0 0 230px; }
+    
+
+  .listing .category {
+    font-size: 11px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #e9ecef;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold; }
+  .listing .lh-content {
+    padding: 20px;
+    position: relative;
+    width: 100%; }
+    .listing .lh-content .bookmark {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.03);
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease;
+      font-size: 16px; }
+      .listing .lh-content .bookmark span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+      .listing .lh-content .bookmark:hover {
+        background: #f23a2e; }
+        .listing .lh-content .bookmark:hover span {
+          color: #fff; }
+  .listing address, .listing .review {
+    font-size: 13px; }
+  .listing h3 {
+    font-size: 16px !important; }
+  .listing.vertical {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: block !important; }
+    .listing.vertical .img {
+      height: 150px;
+      margin-right: 0;
+      border-top-right-radius: 7px;
+      border-bottom-left-radius: 0px; }  */
+	  
+	  body {font-family: "Times New Roman", Georgia, Serif;}
+
+
+h1 {
+  font-family: "Playfair Display";       /* pour désigne text  */
+  letter-spacing: 5px;
+}
+
+b{
+	 color: #1bc5ad;  /* pour color vert de apropos  */
+ } 
+ 
+ div.about{
+  font-family: "Playfair Display";
+  letter-spacing: 2px;                           /* pour text de a propos  */
+ 
+}
+
+div.img{
+  box-shadow: 0 4px 8px 0  black;       /* pour ecrire une barre de article  */
+ 
+}
+		

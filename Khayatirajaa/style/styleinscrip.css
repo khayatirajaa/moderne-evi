@@ -1,0 +1,80 @@
+ 
+                    /* Rajaa Khayati de la classe 2ème année AP groupe 4 emsi Maarif  */
+
+
+
+
+.inscrcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;                /* pour center loge de inscri  */
+}
+
+
+
+button {
+  width: 40%;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;                 /* pour boutten d'innscrip  */
+}
+
+/* Style the submit button */
+button[type=submit] {
+  background-color: #1bc5ad;
+  color: white;                         /* pour couleur de boutten d'innscrip  */
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;        /* pour color gray  */
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;             /* pour afficher comment ecrit un passeword  */
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;            /* pour decoration de ecrit +  */
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+b.payer{
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 22px;
+  margin: 7px 10px;
+   background-color: #1bc5ad;
+  
+}

@@ -1,0 +1,44 @@
+
+              /* Rajaa Khayati de la classe 2ème année AP groupe 4 emsi Maarif  */
+
+
+	p{
+		color : #1bc5ad;
+		  font: italic bold 20px/20px Georgia, serif;       /* coulor de supr arti prix */
+		}
+		
+		span{
+		font: italic bold 40px/40px Georgia, serif;
+		}
+		
+	   td{
+		color : black;
+		text-indent: 0px;
+        text-align: center;
+        letter-spacing: 4px;
+		 font: italic bold 18px/20px Georgia, serif;
+
+		}
+		
+		
+		#panier td{
+ 
+  box-shadow: 0 4px 8px 0  #ddd ;
+  padding: 12px 0 0 20px;
+}
+
+tr:hover {background-color: #ddd;}
+
+
+b.payer{
+  color: white;
+  padding: 20px 30%;
+  text-align: center;
+  font-size: 22px;
+  margin: 10px 19px;
+  background-color: black;
+}
+
+.shadow{
+ box-shadow: 0 4px 8px 0  black;
+}

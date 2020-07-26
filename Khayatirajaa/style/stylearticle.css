@@ -1,0 +1,76 @@
+ 
+                    /* Rajaa Khayati de la classe 2ème année AP groupe 4 emsi Maarif  */
+
+ 
+ 
+ 
+ 
+ h2{
+   text-align: center;		  
+  color: green;             /* Pour le nom  */
+}
+
+div.desc_art{
+   text-align: center;	
+color: black;                   /* Pour le desc  */
+}
+   
+
+
+div.prix_art{
+  border: none;
+  padding: 12px;
+  color: black;
+  background-color: #1bc5ad;
+  width: 23%;
+  font-size: 18px;
+  border-top-left-radius: 50px 20px;
+  border-top-right-radius: 50px 20px;
+  border-bottom-left-radius: 50px 20px;
+  border-bottom-right-radius: 50px 20px;          /* Pour le cadre de prix  */
+}
+
+div.article{
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 580px;
+  box-shadow: 0 4px 8px 0  #1bc5ad ;       /* Pour position de artic  */
+ 
+}
+
+div.article:hover {
+  border: 1px solid #777;
+}
+
+div.article img {
+  width: 490px;
+  height:332px;                             /* Pour tooul o 3ard  ta3 lcadar */
+}               
+
+div.desc {
+  padding: 100px;
+  text-align: center; 
+}
+
+/*.btn_art{
+color: red;
+}
+
+button.btn_art{
+color :red;
+}*/
+
+.main input, button {
+	width: 1px;
+	height: 43px;
+	float: right;
+	padding-right: 40px;
+	box-sizing: border-box;
+	font-size: 4px;
+     background-color: white;
+	 background-image: url("../images/panier.jpg");
+	background-repeat: no-repeat;
+	 
+	margin-bottom: 3px;   /*  pour cadr de panier*/
+}
